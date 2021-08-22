@@ -17,5 +17,5 @@ COPY wait-for .
 COPY db/migration ./migration
 
 EXPOSE 8000
-CMD [ "/main" ]
-ENTRYPOINT [ "/start.sh" ]
+CMD [ "/app/main" ]
+ENTRYPOINT [ "/app/start.sh" ]
